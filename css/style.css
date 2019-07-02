@@ -1,0 +1,62 @@
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 12px;
+}
+
+ul{
+  background-color: red;
+  width: 155px;
+}
+
+li a{
+  display: inline-block;
+  width: 24px;
+
+  color: white;
+  text-align: center;
+
+  background-color: green;
+}
+
+ul>li:last-child a{
+  color: black;
+}
+
+ul:nth-child(2){
+  width: 115px;
+  background-color: yellow;
+}
+
+ul:nth-child(2) li a{
+  background-color: purple;
+}
+
+ul:nth-child(2) li:last-child a{
+  color: yellow;
+}
+
+ul:nth-child(2)>li>ul{
+  width: 75px;
+  background-color: red;
+}
+
+ol{
+  width: 35px;
+  background-color: yellow;
+}
+
+ol a{
+  color: orange;
+}
+
+ol li:nth-child(odd) a{
+  background-color: cyan;
+}
+
+ol li:nth-child(even) a{
+  background-color: blue;
+}
